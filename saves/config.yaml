@@ -1,0 +1,23 @@
+# Configurações de vídeo
+screen:
+  width: 800
+  height: 600
+  fullscreen: false
+
+# Configurações do projeto
+project:
+  window_name: "Meu Jogo RPG"
+  FPS: 60
+  version: "1.0.0"
+
+# Configurações de rede
+network:
+  server_url: "http://localhost:3000"
+  reconnect_attempts: 3
+  timeout: 5000
+
+# Configurações de jogo
+game:
+  player_speed: 5
+  enemy_spawn_count: 5
+  default_map: "forest"

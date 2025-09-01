@@ -1,0 +1,46 @@
+{
+  "name": "Jogador",
+  "level": 1,
+  "experience": 0,
+  "health": 100,
+  "max_health": 100,
+  "position": {
+    "x": 100,
+    "y": 100,
+    "map": "forest"
+  },
+  "inventory": {
+    "capacity": 20,
+    "items": [
+      {
+        "id": "potion_health",
+        "name": "Poção de Vida",
+        "quantity": 3
+      },
+      {
+        "id": "sword_wood",
+        "name": "Espada de Madeira",
+        "quantity": 1
+      }
+    ],
+    "equipped": {
+      "main_hand": "sword_wood",
+      "off_hand": null,
+      "head": null,
+      "chest": null,
+      "legs": null
+    }
+  },
+  "stats": {
+    "strength": 10,
+    "dexterity": 8,
+    "intelligence": 5,
+    "vitality": 12
+  },
+  "skills": {
+    "combat": 1,
+    "archery": 0,
+    "magic": 0,
+    "crafting": 0
+  }
+}
